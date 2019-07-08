@@ -18,7 +18,7 @@ class Login extends React.Component {
     return (
       <div className="App">
         <form className="LoginForm" onSubmit={this.validateUser.bind(this)}>
-          <h3>ToDo Login</h3>
+          <h3>To-Do Login</h3>
           <input type="text" placeholder="User" className="user" />
           <input type="password" placeholder="Password" className="user" />
           <button type="submit"> Log In</button>

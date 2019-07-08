@@ -14,7 +14,12 @@ class TodoItems extends Component {
         >
           {item.text}
         </li>
-        <i onClick={() => this.props.deleteItem(item.key)}>X</i>
+        <i onClick={() => this.props.deleteItem(item.key)}>
+          <img
+            className="deleteIcon"
+            src="https://img.icons8.com/ios-glyphs/64/000000/delete-sign.png"
+          />
+        </i>
       </div>
     );
   };

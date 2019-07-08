@@ -20,13 +20,13 @@ class ToDo extends React.Component {
           deleteItem={this.deleteItem}
         />
         <div className="header">
-          <h3>ToDo List</h3>
+          <h3>To-Do List</h3>
           <form onSubmit={this.addItem}>
             <input
               placeholder="Task"
               value={this.state.currentItem.text}
               onChange={this.handleChange}
-              maxLength="32"
+              maxLength="38"
             />
             <button type="submit"> Add Item </button>
           </form>

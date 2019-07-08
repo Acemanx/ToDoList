@@ -45,10 +45,15 @@
 input {
   height: 30px;
   width: 250px;
+  border: black 1px solid;
+  border-radius: 7px;
 }
 
 button {
   width: 100px;
+  margin-bottom: 10px;
+  background: ghostwhite;
+  border-radius: 3px;
 }
 
 form {
@@ -85,10 +90,24 @@ input {
 }
 .theList {
   width: 300px;
+  list-style-type: none;
 }
 
 .toDoDiv {
+  display: flex;
   border: black 1px solid;
   border-radius: 10px;
   margin-bottom: 5px;
+}
+
+.deleteIcon {
+  width: 16px;
+  height: 16px;
+}
+
+li {
+  flex: 1;
+}
+i {
+  margin-right: 5px;
 }
