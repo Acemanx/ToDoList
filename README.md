@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Para Ingresar al todo:
+## Usuario: test
+## Contraseña: test123
+
 ## Available Scripts
 
 In the project directory, you can run:
