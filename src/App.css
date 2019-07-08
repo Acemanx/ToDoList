@@ -1,0 +1,94 @@
+.App {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  height: 120px;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.LoginForm {
+  margin-top: 100px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input {
+  height: 30px;
+  width: 250px;
+}
+
+button {
+  width: 100px;
+}
+
+form {
+  width: 250px;
+}
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.toDoContainer {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background: azure;
+  width: 600px;
+}
+
+.done {
+  color: rgb(143, 30, 30);
+  text-decoration: line-through;
+}
+.undone {
+  color: rgb(58, 58, 218);
+}
+.theList {
+  width: 300px;
+}
+
+.toDoDiv {
+  border: black 1px solid;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
